@@ -1,8 +1,10 @@
-- name: yadwh
-
-
-              
-  uses: darmiel/yadwh-action@v1
-
-
-            
+- name: yamler
+  # You may pin to the exact commit or the version.
+  # uses: juliojimenez/yamler@f2821b2178170f60757afd21d226d21bb6bce3e1
+  uses: juliojimenez/yamler@v1.0.9
+  with:
+    # Input file
+    yaml-file: 
+    # Multiple Documents
+    multidoc: # optional
+          
